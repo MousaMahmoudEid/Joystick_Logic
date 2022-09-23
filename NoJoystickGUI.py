@@ -209,11 +209,7 @@ class UI(QMainWindow):
                     self.LeftBar.setValue(abs(WAxis))
 
 
-        #Replace with something else to send data, prefre to just gather data in variables as we call functions of our gui
-        #Then send all that data in one go, i.e: Joystick_Send = state1,state1_pwm,state2,state2_pwm
-        #Cytron_send = ...........
-        #Relay_send = ...........
-        #then call a function that takes all these _send in and send them to server
+        #Displaying all data on the GUI
         NewState1 = str(state1)
         NewState1_pwm = str(state1_pwm)
         NewState2 = str(state2)
